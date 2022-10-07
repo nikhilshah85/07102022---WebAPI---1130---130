@@ -1,0 +1,150 @@
+ASP.Net WebAPI (RESTFul services) - standard by W3C for data communication 
+
+- Develop WebAPI 
+	In Memory collection 
+	Entity Framework with SQL Server
+- Consume WebAPI - provided by client 
+
+- CORS configuration (limit access to api)
+
+- Dependency Injection 
+
+- Use REPOSITORY pattern (mostly used by     archticts to design the apis)
+
+- Security 
+
+-------------------------------------------------	
+	This is what makes you api developer
+
+Course Prequiste
+
+1. fundamentals on OOPS, HTML and Javascript
+2. Software setup for hands on, demo and assignment
+ a. visual studio 2019 or 2022 with .net core
+ b. SQL Server with SSMS
+
+	- either installed on your machine 
+		or
+	- use cloud lab
+
+----------------------------------------------
+Goal - be a good API developer
+
+-----
+Expectations : 
+	be on time 
+	be interactive
+	do complete all the task and assignments
+
+---------------------
+	last 15 mins for QnA
+
+			Share / Exchange data between 
+				-no-relational apps
+				-different frameworks
+				-differnt tools
+				-differnt hardwares
+				-differnt network 
+
+		---------------------------------------------
+		Thus we has WebServices - SOAP format using XML 
+		This is what had brought a great change in way apps were developed
+			and it was the most innovative technology 
+
+			But, this days since the network has changed for enduser
+
+			SOAP message are very heavy to communicatie from server to 			client, which makes the communication very slow
+
+Problems with WebService
+	1. 
+		SOAP was more of a meta data than data
+
+		To share a temperature from server to client
+
+		SOAP
+		<temp:int> 25 </temp> (takes time to serialize and deserialize)
+
+		JSON (this is 300% lighter than above) (less time)
+		25  
+	2. SOAP did not follow HTTP Protocol - like StatusCode
+
+	3. WebService - Was tightly coupled - due to proxy arch and patter
+		REST is not proxy based - this make life very easy for every one
+		Proxy - set of files and configuration needs to be generated for every
+		framework- hardware and share with the client - client will have to 
+		attach it in their application - and communicate
+
+	4. we have new language/framework features this days, like DI, TestAPI Swagger, async programming etc. we missing in webservice  - this are included here
+		
+
+
+	REST is a standard for data exchange
+	
+		Representational State transfer
+		it has laid down all the standards 
+
+		Microsft took this standards
+			developed - compiles, classes, methods, attributes, libraries
+			and called it as WebAPI made it a part of .net core
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
