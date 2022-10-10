@@ -1,0 +1,5 @@
+Day 2:
+	Develop an WebAPI app 
+	with InMemory collection
+	and CRUD operations
+

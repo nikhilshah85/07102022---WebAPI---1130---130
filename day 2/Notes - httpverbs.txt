@@ -1,0 +1,21 @@
+HttpGET - use this when you want to get something
+	from server (something could be
+		data, image, video, details)
+
+
+HttpPost - use this when u want to create something
+	new on server (something could be
+		data, image, video, details)
+
+HttpPut - use this when you want to update something on the server (edit)
+
+HttpDelete - use then when you want to delete somethng from server
+
+-------------------------------------------------------------------------
+  {
+        "pId": 101,
+        "pName": "Pepsi",
+        "pCategory": "Cold-Drink",
+        "pPrice": 50,
+        "pIsInStock": true
+    }
