@@ -1,0 +1,50 @@
+1. create a new database with table and sample data
+	https://ctxt.io/2/AAAQIjLuEg
+2. create a new web api project
+
+3. Project does not have modules to with EF and sql server database
+
+	add below Nuget packages from solution explorer
+
+	Microsoft.EntityFrameworkCore.Design
+	Microsoft.EntityFrameworkCore.Tools
+	Microsoft.EntityFrameworkCore
+	Microsoft.EntityFrameworkCore.SqlServer
+
+	EF Core is based on ORM Pattern - Object relational mapping
+		which will have a class - mapped to table in database
+		properties mapped to columns in database table
+		file mapped to database (DbContext File)
+
+4. Create POCO classes or ORM classes with the help of powershell command
+
+	Tools -> Nuget package manager -> Nuget package manager console
+Scaffold-DbContext "server=WIN8\NIKHILINSTANCE; database=productsWebAPIDB;integrated security=true" -OutputDir Models\EF -Provider Microsoft.EntityFrameworkCore.SqlServer
+
+5. Build the application, right click on controller folder and add new API controller
+	with action using EF
+
+6. in the controller - it uses DI - dependency injection by default, half configuration done and half we need to do, we are removeing the first half as of now 
+
+	Thus, instantiate new object of dbcontext class and comment/remve constructor
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+

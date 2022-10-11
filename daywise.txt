@@ -1,5 +1,4 @@
-Day 2:
-	Develop an WebAPI app 
-	with InMemory collection
-	and CRUD operations
+Day 1 - Intro to Web
+Day 2 - InMemorry Collection with CRUD Operation
+Day 3 - WebAPI with EF Core on SQL Server and CRUD
 
