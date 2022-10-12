@@ -1,4 +1,6 @@
 Day 1 - Intro to Web
 Day 2 - InMemorry Collection with CRUD Operation
 Day 3 - WebAPI with EF Core on SQL Server and CRUD
-
+Day 4 - Consume WebAPI in UI 
+	a. client side - Web - Fetch API - standarrd api - built into browser
+	b. server side - HttpClient - standard object to make calls

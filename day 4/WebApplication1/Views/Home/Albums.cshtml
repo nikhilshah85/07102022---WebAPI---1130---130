@@ -1,0 +1,33 @@
+﻿
+
+
+
+
+<script>
+    function showAlbum()
+    {
+        fetch('https://jsonplaceholder.typicode.com/photos').then(res => res.json())
+                 .then( data =>{
+                     alert('success');
+                     console.log(data);
+                     for(var i=0;i<data.length;i++)
+                     {
+                         $("table").append("<tr>" + 
+                         
+                         "<td>" + data[i].id+ "</td>" + 
+                         "<td>" + data[i].albumId + "</td>" + 
+                         "<td>" + data[i].title+ "</td>" + 
+                         "<td> <img src='" + data[i].thumbnailUrl+ " '/></td>" + 
+                         
+                         + "</tr>")
+                     }
+                 })
+                 .catch(err=>{
+                    alert('errorrrrrrr');
+                 })
+    }
+</script>
+
+
+<button class="btn btn-danger" onClick="showAlbum()">Show Albums</button>
+<table class="table table-bordered"></table>
