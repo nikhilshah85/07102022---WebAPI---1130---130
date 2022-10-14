@@ -1,0 +1,46 @@
+Develope an WebAPI
+	EF Core
+Consume WebAPI
+	Client End - Fetch
+	Server End - HttpClient
+------------------------------------------------------------------	
+ASP.Net Core Web API Features
+	- Middleware - DI - Dependency Injection 
+
+----------------------------------------------------------------------------------------
+
+		As a developer we Create / Instanciate lots of objects
+
+	1. 
+	We never write code to dispose them / destroy them / clean them 
+	GC will take care of it - but we dont know when 
+
+	2. Object Lifecycle - shareing the object between
+				Multiple request / response
+				Multiple users
+
+-----
+	Here object will be created by Framework  - and destroyed by the framework 
+
+-------------------------------------------------------------------------
+		3 ways - instances framework will destroy the object
+
+		PerCall   -- Create a new object for every request and destroy the 			     object after processing the response
+
+AddTrancient(typeof(type))	
+		PerSession -- create a new object for every new session, and destroy
+			when session is over		
+AddScoped(typeof(type))
+					
+AddSingleTon((typeof(type))
+		PerApplication - create a new object at appliation level - destroy when
+			server stops
+		
+
+
+
+
+
+
+
+

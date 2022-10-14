@@ -1,0 +1,20 @@
+
+
+fetch
+HttpClient 
+	both are a part of Standards
+
+
+Lab : Make a API call to Post
+useing HttpClient class
+display the data
+
+https://ctxt.io/2/AAAQ3g3kFg
+Assignment
+https://jsonplaceholder.typicode.com/todos
+-----------------------------------------------------------------------------------
+	Tomorrow :
+			1. DI - Dependency Injection 
+			2. CORS - Cross Origin Resource Shareing
+			(Middleware and services)
+			
