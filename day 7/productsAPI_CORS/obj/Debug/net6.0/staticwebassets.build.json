@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "tItAJT4lWO4PjJWjAw8dfsEk80usXbW2PXHebFbWj+c=",
+  "Source": "productsAPI_CORS",
+  "BasePath": "_content/productsAPI_CORS",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

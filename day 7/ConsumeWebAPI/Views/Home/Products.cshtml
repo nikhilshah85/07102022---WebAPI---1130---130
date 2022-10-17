@@ -1,0 +1,37 @@
+﻿
+
+
+<script>
+    function getProducts()
+    {
+        fetch('https://localhost:7019/api/Products').then(response => response.json())
+                 .then(result => {
+                     console.log(result)
+
+                     for(var i=0;i<result.length;i++)
+                     {
+                         $("table").append("<tr>" +
+                            "<td>" + result[i].pId + "</td>" +
+                            "<td>" + result[i].pName + "</td>" +
+                            "<td>" + result[i].pCategoty + "</td>" +
+                            "<td>" + result[i].pPrice + "</td>" +
+                            "<td>" + result[i].pIsInStock + "</td>" +
+                            
+                         
+                         + "</tr>")
+                     }
+
+                 }).
+                 catch(err =>{
+                     console.log(err)
+                 })
+    
+    
+    
+    }
+</script>
+
+
+<button class="btn btn-primary" onClick="getProducts()"> Show Products </button>
+
+<table class="table table-bordered"></table>
